@@ -4,8 +4,8 @@ import illustration from '../images/illustration-hero.svg';
 const MainSection = () => {
     return (
         <section id='main'>
-            <div className='mx-auto flex flex-col-reverse space-y-6 lg:flex-row lg:space-y-0 lg:space-x-10 
-            lg:px-6 py-16 lg:mb-16'>
+            <div className='mx-auto px-6 lg:px-20 flex flex-col-reverse space-y-6 lg:flex-row lg:space-y-0 lg:space-x-10 
+             py-16 lg:mb-16'>
                 <div className='flex flex-col space-y-10 items-center lg:items-start lg:w-1/2'>
                     <h1 className='max-w-md text-3xl lg:text-4xl font-semibold text-center lg:text-left'>
                         A Simple Bookmark Manager

@@ -3,7 +3,7 @@ import React from 'react'
 const TabsSection = () => {
     return (
         <section id='tabs'>
-            <div className='relative mx-auto my-6  mt-12 px-6'>
+            <div className='relative mx-auto my-6 mt-12 px-6 lg:px-20'>
                 <div className='bgTabs '></div>
                 <div className='flex flex-col justify-center max-w-xl mx-auto mb-6 border-b 
                     md:space-x-10 md:flex-row'>

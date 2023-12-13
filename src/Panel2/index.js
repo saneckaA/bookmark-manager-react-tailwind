@@ -4,7 +4,7 @@ import illustration from '../images/illustration-features-tab-2.svg';
 const Panel2= () => {
     return (
         <section id='panel2' className='mx-auto'>
-            <div className='flex flex-col py-5 md:flex-row md:space-x-7 panel-1'>
+            <div className='flex flex-col py-5 px-6 md:flex-row md:space-x-7 panel-1'>
                 <div className='flex justify-center md:w-1/2'>
                     <img src={illustration} className='relative z-10' />
                 </div>

@@ -3,7 +3,7 @@ import logo from '../images/logo-bookmark.svg';
 
 const Navigation = () => {
     return (
-        <div className='mx-auto flex px-6 flex-row items-center justify-between pb-20'>
+        <div className='mx-auto flex px-6 lg:px-20 py-12 flex-row items-center justify-between'>
             <div className='z-30'>
                 <img id="logo" src={logo} alt='' />
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const FAQAccording = () => {
     return (
         <section id='faq-according'>
-            <div className='mx-auto px-6 mb-32'>
+            <div className='mx-auto px-6 lg:px-20 mb-32'>
                 <div className='max-2-xl m-8 mx-auto overflow-hidden'>
                     <div className='py-1 border-b outline-none group' tabIndex="1">
                         <div className='flex items-center justify-between py-3 text-gray-500
