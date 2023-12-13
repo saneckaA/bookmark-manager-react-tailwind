@@ -1,0 +1,34 @@
+import React from 'react'
+
+const TabsSection = () => {
+    return (
+        <section id='tabs'>
+            <div className='relative mx-auto my-6  mt-12 px-6'>
+                <div className='bgTabs '></div>
+                <div className='flex flex-col justify-center max-w-xl mx-auto mb-6 border-b 
+                    md:space-x-10 md:flex-row'>
+                    <div data-target="panel-1" className='flex justify-center text-center text-gray-600 border-b
+                        md:border-b-0 hover:text-softRed md:w-1/3 tab'>
+                        <div data-target="panel-1" className='py-5 border-b-4 border-softRed'>
+                            Simple Bookmarking
+                        </div>
+                    </div>
+                    <div data-target="panel-2" className='flex justify-center text-center text-gray-600 border-b
+                        md:border-b-0 hover:text-softRed md:w-1/3 tab'>
+                        <div data-target="panel-2" className='py-5 '>
+                            Speedy Searching
+                        </div>
+                    </div>
+                    <div data-target="panel-3" className='flex justify-center text-center text-gray-600 border-b
+                        md:border-b-0 hover:text-softRed md:w-1/3 tab'>
+                        <div data-target="panel-3" className='py-5 '>
+                            Easy Sharing
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default TabsSection;
