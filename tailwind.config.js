@@ -5,8 +5,8 @@ module.exports = {
     screens: {
       sm: '480px',
       md: '768px',
-      lg: '1020px',
-      xl: '1440px'
+      lg: '1220px',
+      xl: '1740px',
     },
     extend: {
       colors: {
@@ -17,7 +17,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Rubik', 'sans-serif'],
-      }
+      },
+      backgroundImage: () => ({
+        'dots': "url('./images/bg-dots.svg')",
+      })
     },
   },
   plugins: [],
