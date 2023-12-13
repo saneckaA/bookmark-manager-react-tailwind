@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const TabsSection = () => {
     return (
@@ -9,21 +10,21 @@ const TabsSection = () => {
                     md:space-x-10 md:flex-row'>
                     <div data-target="panel-1" className='flex justify-center text-center text-gray-600 border-b
                         md:border-b-0 hover:text-softRed md:w-1/3 tab'>
-                        <div data-target="panel-1" className='py-5 border-b-4 border-softRed'>
+                        <NavLink to="/" data-target="panel-1" className='py-5' activeClassName='border-b border-softRed'>
                             Simple Bookmarking
-                        </div>
+                        </NavLink>
                     </div>
                     <div data-target="panel-2" className='flex justify-center text-center text-gray-600 border-b
-                        md:border-b-0 hover:text-softRed md:w-1/3 tab'>
-                        <div data-target="panel-2" className='py-5 '>
+                        md:border-b-0 hover:text-softRed md:w-1/3 tab ' >
+                        <NavLink to="/panel2" data-target="panel-2" className='py-5' activeClassName='border-b border-softRed'>
                             Speedy Searching
-                        </div>
+                        </NavLink>
                     </div>
                     <div data-target="panel-3" className='flex justify-center text-center text-gray-600 border-b
                         md:border-b-0 hover:text-softRed md:w-1/3 tab'>
-                        <div data-target="panel-3" className='py-5 '>
+                        <NavLink to="/panel3" data-target="panel-3" className='py-5' activeClassName='border-b border-softRed'>
                             Easy Sharing
-                        </div>
+                        </NavLink>
                     </div>
                 </div>
             </div>
