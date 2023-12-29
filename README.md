@@ -3,8 +3,14 @@
 ## Description
 
 This is one of the projects I worked on during the Tailwind CSS learning course. Mainly focused on the responsive mobile menu, smooth scroll bar and react-routing while creating this project.
+
+### Desktop
 ![](https://raw.githubusercontent.com/saneckaA/bookmark-manager-react-tailwind/eb92afe78dbb440edf156a33476b1ce5a1ab22a9/src/images/bookmark-desktop.PNG)
-![](https://raw.githubusercontent.com/saneckaA/bookmark-manager-react-tailwind/eb92afe78dbb440edf156a33476b1ce5a1ab22a9/src/images/bookmark-mobile.PNG)
+
+### Mobile
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saneckaA/bookmark-manager-react-tailwind/eb92afe78dbb440edf156a33476b1ce5a1ab22a9/src/images/bookmark-mobile.PNG" />
+</p>
 
 ## You can check it out here:
 [Bookmark - demo](https://saneckaa.github.io/bookmark-manager-react-tailwind/)
